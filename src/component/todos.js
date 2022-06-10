@@ -7,7 +7,7 @@ import {Card,CardContent,Grid,ListItemButton,ListItemText,Checkbox,} from "@mui/
 // If the todos array has items in the list [todos.length], we want to return the list
 // Else, return a message saying "You have no todo's left"
 // 3. The map function is called to assign each array item with a key
-// 4. Think of lines 14-23 as a loop. For each todo in the todo list, we want to give the list item
+// 4 Think of lines 14-23 as a loop. For each todo in the todo list, we want to give the list item
 // a key, and it's own card shown in the UI
 const Todos = ({ todos }) => {
     const todoList = todos.length ? (
